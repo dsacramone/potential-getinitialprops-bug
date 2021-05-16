@@ -27,6 +27,8 @@ export default function Home(props) {
             </p>
             <br /><br />
             Remember, this is an issue in "prod" (npm run build). Dev seems to work as expected.
+            Keep in mind this is a contrived example, but what if I had a global header that showed whether
+            the user was "logged in" or not? or "dynamic" navigation items...but the rest of the page was static?
           </div>
         </div>
         <style jsx>{`
